@@ -1,18 +1,6 @@
 {
-  "name": "treeify-pwa",
   "version": "0.0.0",
-  "description": "",
-  "homepage": "https://github.com/treeify/treeify-pwa#readme",
-  "bugs": {
-    "url": "https://github.com/treeify/treeify-pwa/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/treeify/treeify-pwa.git"
-  },
-  "license": "CC0-1.0",
-  "author": "ootidea",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "format": "run-p format:*",
     "format:prettier": "prettier --write \"src/**/*.{ts,tsx,css,scss}\"",
