@@ -20,7 +20,8 @@
     "sort-package-json": "^2.4.1",
     "typescript": "^5.0.3",
     "vite": "^4.2.1",
-    "vite-plugin-solid": "^2.6.1"
+    "vite-plugin-solid": "^2.6.1",
+    "vitest": "^0.29.8"
   },
   "volta": {
     "node": "18.14.2"
