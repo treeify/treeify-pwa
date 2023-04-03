@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/treeify/treeify-pwa/issues"
   },
-  "homepage": "https://github.com/treeify/treeify-pwa#readme"
+  "homepage": "https://github.com/treeify/treeify-pwa#readme",
+  "volta": {
+    "node": "18.14.2"
+  }
 }
