@@ -25,5 +25,8 @@
   },
   "volta": {
     "node": "18.14.2"
+  },
+  "dependencies": {
+    "base-up": "^0.7.1"
   }
 }
