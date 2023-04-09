@@ -1,5 +1,5 @@
 import { assertNeverType, bindAllButFirst, join, map, pipe } from 'base-up'
-import type { integer } from '../integer'
+import type { integer } from '../Utility/integer'
 
 /**
  * DOM要素っぽいオブジェクトの型。
