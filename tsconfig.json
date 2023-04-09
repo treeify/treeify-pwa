@@ -6,7 +6,9 @@
     "moduleResolution": "bundler",
     "types": ["vitest/globals"],
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   },
   "include": ["src"]
 }
