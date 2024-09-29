@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+div[contenteditable] {
+  outline-offset: 5px;
+  outline-color: oklch(59% 0.17 255.4);
+  outline-width: 1px;
+}
