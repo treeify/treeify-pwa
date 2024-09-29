@@ -1,37 +1,26 @@
 {
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "vite build",
     "dev": "vite",
-    "format": "run-p format:*",
-    "format:prettier": "prettier --write \"src/**/*.{ts,tsx,css,scss}\"",
-    "format:package-json": "sort-package-json",
-    "test": "vitest --silent=false",
-    "typecheck": "tsc --noEmit"
+    "build": "vite build",
+    "fix": "run-p \"fix:*\"",
+    "fix:biome": "biome check --write",
+    "fix:package-json": "sort-package-json",
+    "check": "run-p \"check:*\"",
+    "check:type": "tsc --noEmit",
+    "check:biome": "biome check"
   },
   "devDependencies": {
-    "@csstools/postcss-oklab-function": "^2.2.0",
-    "@tsconfig/strictest": "^2.0.0",
-    "@types/power-radix": "^2.5.0",
-    "@types/ua-parser-js": "^0.7.36",
-    "autoprefixer": "^10.4.14",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.7",
-    "solid-js": "^1.7.1",
-    "sort-package-json": "^2.4.1",
-    "typescript": "^5.0.3",
-    "vite": "^4.2.1",
-    "vite-plugin-solid": "^2.6.1",
-    "vitest": "^0.29.8"
+    "@biomejs/biome": "^1.9.2",
+    "@tsconfig/strictest": "^2.0.5",
+    "npm-run-all2": "^6.2.3",
+    "solid-js": "^1.9.1",
+    "sort-package-json": "^2.10.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8",
+    "vite-plugin-solid": "^2.10.2"
   },
-  "volta": {
-    "node": "18.14.2"
-  },
-  "dependencies": {
-    "base-up": "^0.7.1",
-    "nanoid": "^4.0.2",
-    "power-radix": "^2.5.6",
-    "ua-parser-js": "^1.0.35"
-  }
+  "packageManager": "pnpm@9.10.0"
 }

@@ -4,11 +4,11 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "bundler",
-    "types": ["vitest/globals"],
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "paths": { "~/*": ["./src/*"] },
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "noErrorTruncation": true,
+    "incremental": true
   },
   "include": ["src"]
 }
