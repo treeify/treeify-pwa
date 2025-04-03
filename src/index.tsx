@@ -1,4 +1,5 @@
 import { render } from 'solid-js/web'
-import { App } from './App'
+import { Root } from '~/components/Root'
+import './index.scss'
 
-render(() => <App />, document.body)
+render(() => <Root />, document.body)

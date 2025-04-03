@@ -18,6 +18,9 @@ importers:
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
+      base-up:
+        specifier: ^2.0.0
+        version: 2.0.0
       npm-run-all2:
         specifier: ^6.2.3
         version: 6.2.3
@@ -495,6 +498,9 @@ packages:
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  base-up@2.0.0:
+    resolution: {integrity: sha512-oFUEEDwi0Q4WZC3k2+F4MUBBX8Q1f8QuIeeg0jI0b3yTW10lUWQBK8DoGZcCx7aDOGM4Cq1uQlUdKkuCDA4h1Q==}
 
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
@@ -1601,6 +1607,8 @@ snapshots:
       - utf-8-validate
 
   balanced-match@1.0.2: {}
+
+  base-up@2.0.0: {}
 
   brace-expansion@2.0.1:
     dependencies:
